@@ -7,20 +7,20 @@ import org.junit.Test;
 
 public class carTest {
 	
-	car c1;
-	int x;
+	car jip;
+	int d;
 	
 
 	@Before
 	public void setUp() throws Exception {
-		c1=new car(300);
+		jip=new car(300);
 	}
 
 	@Test
 	public void testGetEnginCapacity() {
-		fail("Not yet implemented");
+     d=jip.getEnginCapacity();
 		
-		assertEquals(300,x);
+		assertEquals(300,d);
 		
 	}
 
